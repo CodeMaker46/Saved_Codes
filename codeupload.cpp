@@ -1,13 +1,17 @@
 #include <bits/stdc++.h>
-#define ll long long
+#define ll long long int
 using namespace std;
+ll gcd(ll a, ll b)
+ll prime(ll n)
+ll power(ll x, ll n)
+ll combination(ll n, ll r)
+ll permutation(ll n, ll r)
 
-int main(){
-    ll n; cin>>n;
-    for(ll k=1;k<=n;k++)
+int main()
+{
+    ll t; cin>>t;
+    while(t--)
     {
-        ll total=( k*k* ( (k*k) -1) )/2;
-        ll ans =total-4*(k-1)*(k-2);
-        cout<<ans<<endl;
-    }
+        
+    }  
 }
