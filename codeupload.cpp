@@ -10,6 +10,7 @@
 #define pb push_back
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 using namespace std;
+ll lcm(ll a, ll b){a=(a*b)/gcd(a,b); return a;} 
 ll gcd(ll a, ll b){if(b==0) return a;gcd(b,a%b);}
 ll prime(ll n){ if(n==1 || n==0) return 0; for(ll i=2;i*i<=n;i++) if(n%i==0) return 0;return 1;}
 ll power(ll x, ll n){ll res=1;while(n){if(n&1) res*=x,n--;else x*=x,n/=2;}return res;}
