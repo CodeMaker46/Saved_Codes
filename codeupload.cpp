@@ -8,6 +8,7 @@
 #define fie(i,x,n) for(ll i=x;i<=n;i++)
 #define fd(i,n,x) for(ll i=n-1;i>=x;i--)
 #define fde(i,n,x) for(ll i=n;i>=x;i--)
+#define pb push_back
 using namespace std;
 ll gcd(ll a, ll b){if(b==0) return a;gcd(b,a%b);}
 ll prime(ll n){ if(n==1 || n==0) return 0; for(ll i=2;i*i<=n;i++) if(n%i==0) return 0;return 1;}
