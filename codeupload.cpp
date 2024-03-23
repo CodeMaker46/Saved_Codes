@@ -9,6 +9,13 @@
 #define fde(i,n,x) for(ll i=n;i>=x;i--)
 #define pb push_back
 // Formula : a*b = lcm(a,b) * gcd(a,b)
+
+// INT_MAX:INT_MAX is typically 2147483647.
+// INT_MAX is for int (usually 32-bit signed integer).
+
+// LLONG_MAX: LLONG_MAX is typically 9223372036854775807.
+// LLONG_MAX is for long long (usually 64-bit signed integer).
+
 using namespace std;
 ll lcm(ll a, ll b){a=(a*b)/gcd(a,b); return a;} 
 ll gcd(ll a, ll b){if(b==0) return a;gcd(b,a%b);}
