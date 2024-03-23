@@ -4,9 +4,7 @@
 #define co cout
 #define e endl;
 #define fi(i,x,n) for(ll i=x;i<n;i++)
-#define fie(i,x,n) for(ll i=x;i<=n;i++)
-#define fd(i,n,x) for(ll i=n-1;i>=x;i--)
-#define fde(i,n,x) for(ll i=n;i>=x;i--)
+#define fd(i,n,x) for(ll i=n;i>=x;i--)
 #define pb push_back
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 
