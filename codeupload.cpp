@@ -10,6 +10,7 @@
 // Formual to make pairs : (n*(n-1) )/2
 // lower_bound(v.begin(),v.end(),L) gives you the pointer of the value greater than or equal to L
 // lower_bound(v.begin(),v.end(),L) - v.begin() gives you the index of the value greater than or equal to L
+// sort(v.begin(),v.end(),greater<ll>()); sorts the array in descendind order
 
 // INT_MAX:INT_MAX is typically 2147483647.
 // INT_MAX is for int (usually 32-bit signed integer).
@@ -27,7 +28,10 @@ ll npr(ll n, ll r){ ll res=1; for(ll i=0;i<r;i++){res*=(n-i); } return res;}
 
 int main()
 {
-    ll t; cin>>t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    ll t=1; 
+    cin>>t;
     while(t--)
     {
         
