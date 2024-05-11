@@ -7,6 +7,9 @@
 #define fd(i,n,x) for(ll i=n;i>=x;i--)
 #define pb push_back
 // Formula : a*b = lcm(a,b) * gcd(a,b)
+// Formual to make pairs : (n*(n-1) )/2
+// lower_bound(v.begin(),v.end(),L) gives you the pointer of the value greater than or equal to L
+// lower_bound(v.begin(),v.end(),L) - v.begin() gives you the index of the value greater than or equal to L
 
 // INT_MAX:INT_MAX is typically 2147483647.
 // INT_MAX is for int (usually 32-bit signed integer).
