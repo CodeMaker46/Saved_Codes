@@ -24,7 +24,7 @@ const int mod = 1e9+7;
 void solve()
 {
     ll n; cin>>n;
-    vll v;
+    vll v(n);
     fi(i,0,n) cin>>v[i];
 }
 
