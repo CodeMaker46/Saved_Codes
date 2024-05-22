@@ -20,6 +20,13 @@
 // LLONG_MAX: LLONG_MAX is typically 9223372036854775807.
 // LLONG_MAX is for long long (usually 64-bit signed integer).
 
+// SLIDING WINDOW OR TWO POINTER CONCEPT
+// ll i=0,j=0;
+// while(j<n)
+// {
+//     while(condition not true) i++;
+// }
+
 using namespace std;
 const int mod = 1e9+7;
 
