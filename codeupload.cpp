@@ -52,6 +52,6 @@ int main()
     cin>>t;
     while(t--)
     {
-        solve()
+        solve();
     }  
 }
