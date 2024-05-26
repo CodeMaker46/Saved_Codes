@@ -6,6 +6,9 @@
 #define fi(i,x,n) for(ll i=x;i<n;i++)
 #define fd(i,n,x) for(ll i=n;i>=x;i--)
 #define pb push_back
+#define print(v) for(auto it:v)cout<<it<<" "; cout<<endl;
+#define yes cout<<"Yes"<<endl;
+#define no cout<<"No"<<endl;
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 // Formula to make pairs : (n*(n-1) )/2
 
