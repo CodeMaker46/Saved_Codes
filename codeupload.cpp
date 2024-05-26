@@ -9,6 +9,7 @@
 #define print(v) for(auto it:v)cout<<it<<" "; cout<<endl;
 #define yes cout<<"Yes"<<endl;
 #define no cout<<"No"<<endl;
+#define sortit(v) sort(v.begin(),v.end())
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 // Formula to make pairs : (n*(n-1) )/2
 
