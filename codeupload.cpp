@@ -27,6 +27,9 @@
 // INT_MAX:INT_MAX is typically 2147483647.
 // INT_MAX is for int (usually 32-bit signed integer).
 
+// INT_MIN : -2^31
+// INT_MAX : 2^31 - 1
+
 // LLONG_MAX: LLONG_MAX is typically 9223372036854775807.
 // LLONG_MAX is for long long (usually 64-bit signed integer).
 
