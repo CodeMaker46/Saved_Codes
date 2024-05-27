@@ -12,6 +12,7 @@
 #define sortit(v) sort(v.begin(),v.end())
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 // Formula to make pairs : (n*(n-1) )/2
+// Always use map for hashing instead of unordered_map as it may gives TLE
 
 // upper_bound(v.begin(),v.end(),U)
 // Returns an iterator pointing to the first element that is greater than U.
