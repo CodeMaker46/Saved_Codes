@@ -1,8 +1,8 @@
-
+// **************************************************************************************** FORMULAS *****************************************************************************************
 Formula : a*b = lcm(a,b) * gcd(a,b)
 Formula to make pairs : (n*(n-1) )/2
 
-Always use map for hashing instead of unordered_map as it may gives TLE
+// **************************************************************************************** INBUILTS *****************************************************************************************
 
 INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
   
@@ -17,8 +17,13 @@ INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
 
 4.  v.insert(v.begin(), x); to insert 'x' at the front of a vector 
 
-5.  isalpha('x'); checks x is char or not 
+5.  isalpha('x'); checks x is among them or not 
+    Uppercase Letters: 'A' to 'Z' (ASCII values 65 to 90)
+    Lowercase Letters: 'a' to 'z' (ASCII values 97 to 122)
 
+Always use map for hashing instead of unordered_map as it may gives TLE
+  
+  
 INT_MAX:INT_MAX is typically 2147483647.
 INT_MAX is for int (usually 32-bit signed integer).
 
@@ -28,6 +33,8 @@ INT_MAX : 2^31 - 1
 LLONG_MAX: LLONG_MAX is typically 9223372036854775807.
 LLONG_MAX is for long long (usually 64-bit signed integer).
 
+// **************************************************************************************** CONCEPT 1 ****************************************************************************************
+
 SLIDING WINDOW OR TWO POINTER CONCEPT
 ll i=0,j=0;
 while(j<n)
@@ -35,8 +42,20 @@ while(j<n)
     while(condition not true) i++;
 }
 
+// **************************************************************************************** CONCEPT 2 ****************************************************************************************
+
 QUESTION 3097 LEETCODE LINK : https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/
 
 PREFIX OR KE LIYE USE BITMASK ARRAY OF 64/32 BIT AND THEN INC THE SET BIT COUNT AND WHILE SHRINKING THE WINDOW 
 DECREASE THE SET BIT COUNT IF WHILE DEC IT BECOME ZERO THEN DEC THE VAL ELSE IF IT WAS ZERO WHILE INC THEN INC 
 THE VAL ACCORING TO THE BITS 
+
+// **************************************************************************************** CONCEPT 3 ****************************************************************************************
++ AUR ^ EK HI TARIKE SE KAM KRTE HAI JAB INKO AS A OPERAND USE KRTE WAQT JO RESULT AAYEGA WO ODD HOGA YA EVEN 
+FOR EXAMPLE :-
+  ODD + ODD = EVEN
+  ODD ^ ODD = EVEN // last bit set and set hence result unset
+  ODD + EVEN = ODD
+  ODD ^ EVEN = ODD // last bit set and unset hence result set
+
+// **************************************************************************************** CONCEPT 4 ****************************************************************************************
