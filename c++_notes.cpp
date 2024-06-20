@@ -19,10 +19,7 @@ INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
 
 5.  isalpha('x'); checks x is among them or not 
     Uppercase Letters: 'A' to 'Z' (ASCII values 65 to 90)
-    Lowercase Letters: 'a' to 'z' (ASCII values 97 to 122)
-
-Always use map for hashing instead of unordered_map as it may gives TLE
-  
+    Lowercase Letters: 'a' to 'z' (ASCII values 97 to 122)  
   
 INT_MAX:INT_MAX is typically 2147483647.
 INT_MAX is for int (usually 32-bit signed integer).
@@ -60,3 +57,10 @@ FOR EXAMPLE :-
   ODD ^ EVEN = ODD // last bit set and unset hence result set
 
 // **************************************************************************************** CONCEPT 4 ****************************************************************************************
+CODEFORCES ROUND 714 B AND SEQUENCES LINK : https://codeforces.com/contest/1513/problem/B
+
+NOTE THAT THE AND OF ALL NUMBERS IN THE GIVEN ARRAY WILL BE LESS THAN OR EQUAL TO THE MINIMUM ELMENT OF ARRAY 
+  ( a & b ) <= min( a,b );
+
+// **************************************************************************************** CONCEPT 5 ****************************************************************************************
+
