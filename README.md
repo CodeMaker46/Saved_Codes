@@ -1,1 +1,1 @@
-# Saved_Codes
+Competitive Programing code snippet and notes.
