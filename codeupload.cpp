@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
+using namespace std;
+#define Code ios_base::sync_with_stdio(false); 
+#define By cin.tie(NULL);
+#define Shikshak cout.tie(NULL);
 #define ll long long
+#define lld long double
 #define vll vector<ll>
 #define co cout
 #define e endl;
@@ -10,6 +15,7 @@
 #define yes cout<<"Yes"<<endl;
 #define no cout<<"No"<<endl;
 #define sortit(v) sort(v.begin(),v.end())
+
 // Formula : a*b = lcm(a,b) * gcd(a,b)
 // Formula to make pairs : (n*(n-1) )/2
 // Always use map for hashing instead of unordered_map as it may gives TLE
@@ -41,9 +47,7 @@
 //     while(condition not true) i++;
 // }
 
-using namespace std;
-const ll mod = 1e9+7;
-
+// Maths Functions
 ll gcd(ll a, ll b){if(b==0) return a; return gcd(b,a%b);}
 ll lcm(ll a,ll b) {return (a*b)/gcd(a,b);}
 ll prime(ll n){ if(n==1 || n==0) return 0; for(ll i=2;i*i<=n;i++) if(n%i==0) return 0;return 1;}
@@ -51,18 +55,20 @@ ll power(ll x, ll n){ll res=1;while(n){if(n&1) res*=x,n--;else x*=x,n/=2;}return
 ll ncr(ll n, ll r){ ll res=1; for(ll i=0;i<r;i++){res*=(n-i); res/=(i+1);} return res;}
 ll npr(ll n, ll r){ ll res=1; for(ll i=0;i<r;i++){res*=(n-i); } return res;}
 
+// Constants
+const ll mod =  1e9+7;
+const lld pi= 3.141592653589793;
+
+
 void solve()
 {
     ll n; cin>>n;
-    vll v(n);
-    fi(i,0,n) cin>>v[i];
+    vll v(n); fi(i,0,n) cin>>v[i];
 }
 
 int main()
 {
-    ios_base::sync_with_stdio(false); 
-    // disable the synchronization between the C++ and C 
-    cin.tie(nullptr);
+    Code By Shikshak
     ll t=1; 
     cin>>t;
     while(t--)
