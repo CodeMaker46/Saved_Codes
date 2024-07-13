@@ -20,6 +20,14 @@ INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
 5.  isalpha('x'); checks x is among them or not 
     Uppercase Letters: 'A' to 'Z' (ASCII values 65 to 90)
     Lowercase Letters: 'a' to 'z' (ASCII values 97 to 122)  
+
+6. (string1).append(string2) 
+  
+    The append method is used to append a string to the existing string object.
+    The append method is generally more efficient than the + operator because 
+    it modifies the existing string object in place, avoiding the creation of a temporary object. 
+    This reduces memory allocations and can be faster, especially when appending multiple times in a loop.
+
   
 INT_MAX:INT_MAX is typically 2147483647.
 INT_MAX is for int (usually 32-bit signed integer).
