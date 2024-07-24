@@ -82,4 +82,6 @@ NOTE THAT THE AND OF ALL NUMBERS IN THE GIVEN ARRAY WILL BE LESS THAN OR EQUAL T
     v[col][n-1-row]
 
 // **************************************************************************************** CONCEPT 6 ****************************************************************************************
-
+    CodeForces Round 959 ka ques C Hugry Games is a good ques of prefix sum & dp , ques link - https://codeforces.com/contest/1994/problem/C
+      
+// **************************************************************************************** CONCEPT 7 ****************************************************************************************
