@@ -27,7 +27,10 @@ INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
     The append method is generally more efficient than the + operator because 
     it modifies the existing string object in place, avoiding the creation of a temporary object. 
     This reduces memory allocations and can be faster, especially when appending multiple times in a loop.
+  
+7. Prefix sum from left = partial_sum(vec.begin(), vec.end(), leftPrefixSum.begin());
 
+8. Prefix sum from right = partial_sum(vec.rbegin(), vec.rend(), rightPrefixSum.rbegin());
   
 INT_MAX:INT_MAX is typically 2147483647.
 INT_MAX is for int (usually 32-bit signed integer).
