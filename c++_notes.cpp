@@ -88,3 +88,4 @@ NOTE THAT THE AND OF ALL NUMBERS IN THE GIVEN ARRAY WILL BE LESS THAN OR EQUAL T
     CodeForces Round 959 ka ques C Hugry Games is a good ques of prefix sum & dp , ques link - https://codeforces.com/contest/1994/problem/C
       
 // **************************************************************************************** CONCEPT 7 ****************************************************************************************
+    CodeForces Round 963 ka ques D. Med-imize is a good ques of binary search & dp , ques link - https://codeforces.com/contest/1993/problem/D
