@@ -55,6 +55,23 @@ ll power(ll x, ll n){ll res=1;while(n){if(n&1) res*=x,n--;else x*=x,n/=2;}return
 ll ncr(ll n, ll r){ ll res=1; for(ll i=0;i<r;i++){res*=(n-i); res/=(i+1);} return res;}
 ll npr(ll n, ll r){ ll res=1; for(ll i=0;i<r;i++){res*=(n-i); } return res;}
 
+// Polynomial Rolling Hash Function
+ll GetHash(string s)
+{
+    ll p = 31;
+    ll m = 1e9+9;
+    ll hash_val = 0;
+    ll p_pow = 1;
+    
+    for(auto &c:s)
+    {
+        hash_val = (hash_val + (c-'a'+1)*p_pow) % m;
+        p_pow = (p_pow*p)%m;
+    }
+    
+    return hash_val;
+}
+
 // Constants
 const ll mod =  1e9+7;
 const lld pi= 3.141592653589793;
