@@ -11,7 +11,7 @@ INBUILT FUNCTIONS TO BE USED FOR EFFICIENT CODE :-
     If no such element is found, returns last
 
 2.  lower_bound(v.begin(),v.end(),L); gives you the pointer of the value greater than or equal to L
-    lower_bound(v.begin(),v.end(),L) - v.begin(); gives you the index of the value greater than or equal to L
+    lower_bound(v.begin(),v.end(),L) - v.begin(); gives you the index of first occurence of the value greater than or equal to L
 
 3.  sort(v.begin(),v.end(),greater<ll>()); sorts the array in descending order
 
