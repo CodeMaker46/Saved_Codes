@@ -29,6 +29,8 @@ using namespace std;
 
 // sort(v.begin(),v.end(),greater<ll>()); sorts the array in descending order
 
+// a⊕b⊕a=b
+
 // vec.insert(vec.begin(), x); to insert 'x' at the front of a vector 
 
 // INT_MAX:INT_MAX is typically 2147483647.
