@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define Code ios_base::sync_with_stdio(false); 
-#define By cin.tie(NULL);
-#define Shikshak cout.tie(NULL);
+#define By cin.tie(nullptr);
+#define Shikshak cout.tie(nullptr);
 #define ll long long
 #define lld long double
 #define vll vector<ll>
