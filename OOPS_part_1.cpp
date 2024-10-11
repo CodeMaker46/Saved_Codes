@@ -16,6 +16,7 @@ public:
     int health;
     char level;
     int *power;
+    static int timeToComplete ;
 
     int getHealth() { return health; }
 
@@ -80,9 +81,23 @@ public:
         cout<<"power : "<<*power<<endl;
     } 
 
+    ~Hero()
+    {
+        cout<<"Destructor called "<<endl;
+    }
+
+    // STATIC FUNCTION
+
+    static void random()
+    {
+        cout<<" Note : can access only static members : "<<timeToComplete<<endl;
+    }
+
 
 
 };
+
+int Hero::timeToComplete = 5;
 
 int main()
 {
@@ -137,8 +152,6 @@ int main()
 
     // Parameterised constructor 
 
-    
-
     Hero hello(10,'H',300);
      // this->health = 10 , this->level = 'H', power : 300
     
@@ -156,23 +169,40 @@ int main()
     hello.setLevel('P');
     hello.setPower(500); 
     // yaha change to bye me bhi change agr default constructor
-    // use kar rhe hai to 
+    // use kar rhe hai to as wo SHALLOW copy karta hai
     hello.print();
 
     cout<<endl;
     bye.print();
 
 
+    cout<<"For dyanamically constructed object you need to manually call the Destructor"<<endl;
 
+    Hero *dyana = new Hero();
 
+    delete dyana;
 
+    // saare static destructor at the end print honge 
 
+    // STATIC DATATYPE : it can be accessed without creating 
+    // any object 
 
-    
+    cout<<Hero::timeToComplete<<endl;
 
+    Hero a;
+    Hero b;
 
+    cout<<"a.timeToComplete : "<<a.timeToComplete<<endl; // 5
+    cout<<"b.timeToComplete : "<<a.timeToComplete<<endl; // 5
 
+    a.random(); // 5
 
+    b.timeToComplete = 10;
+
+    cout<<"a.timeToComplete : "<<a.timeToComplete<<endl; // 10
+    cout<<"b.timeToComplete : "<<a.timeToComplete<<endl; // 10
+
+    a.random(); // 10
 
     return 0;
 }
