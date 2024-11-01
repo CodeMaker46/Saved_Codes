@@ -89,3 +89,34 @@ NOTE THAT THE AND OF ALL NUMBERS IN THE GIVEN ARRAY WILL BE LESS THAN OR EQUAL T
       
 // **************************************************************************************** CONCEPT 7 ****************************************************************************************
     CodeForces Round 963 ka ques D. Med-imize is a good ques of binary search & dp , ques link - https://codeforces.com/contest/1993/problem/D
+      
+// **************************************************************************************** CONCEPT 8 ****************************************************************************************
+  
+Modulo inverse :
+
+Modulo inverse of N under Modulo P exists iff (coprime) GCD(N,P) = 1
+
+Two ways to find the modulo inverse 
+
+1. using Fermat's Little thoerem
+
+Fermat’s little theorem states that if p is a prime number, then for any integer a, 
+the number a^p - a is an integer multiple of p. 
+
+or you can say  => a^p ≡ a (mod p).
+
+Special Case: If a is not divisible by p, Fermat’s little theorem 
+is equivalent to the statement that a^(p-1) - 1 is an integer multiple of p. 
+
+
+or you can say => 
+a^(p-1) ≡ 1 (mod p) 
+OR 
+a^(p-1) % p = 1 
+
+Here a is not divisible by p. 
+
+TC : log(p)
+
+
+2. using Extended Euclidean theorem
