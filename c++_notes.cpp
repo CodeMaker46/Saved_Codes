@@ -114,6 +114,8 @@ a^(p-1) ≡ 1 (mod p)
 OR 
 a^(p-1) % p = 1 
 
+means inverse modulo of (1/a) = power(a,p-2);
+
 Here a is not divisible by p. 
 
 TC : log(p)
