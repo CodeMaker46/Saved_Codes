@@ -122,3 +122,7 @@ TC : log(p)
 
 
 2. using Extended Euclidean theorem
+
+// **************************************************************************************** CONCEPT 9 ****************************************************************************************
+ 
+classic problem : https://codeforces.com/contest/1915/problem/F (v.erase interval overlap wali problem : v is vector)
