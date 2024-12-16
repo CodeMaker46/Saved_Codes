@@ -130,3 +130,7 @@ classic problem : https://codeforces.com/contest/1915/problem/F (v.erase interva
 // **************************************************************************************** CONCEPT 10 ****************************************************************************************
 
 number theory : https://codeforces.com/problemset/problem/1907/E
+
+// **************************************************************************************** CONCEPT 11 ****************************************************************************************
+
+string and implementation classical problem : https://codeforces.com/problemset/problem/1886/C
