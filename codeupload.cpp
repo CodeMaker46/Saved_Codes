@@ -11,7 +11,7 @@ using namespace std;
 #define fi(i,x,n) for(ll i=x;i<n;i++)
 #define fd(i,n,x) for(ll i=n;i>=x;i--)
 #define pb push_back
-#define print(v) for(auto it:v)cout<<it<<" "; cout<<endl;
+#define print(v) for(auto &it:v)cout<<it<<" "; cout<<endl;
 #define yes cout<<"Yes"<<endl;
 #define no cout<<"No"<<endl;
 #define sortit(v) sort(v.begin(),v.end())
