@@ -134,3 +134,6 @@ number theory : https://codeforces.com/problemset/problem/1907/E
 // **************************************************************************************** CONCEPT 11 ****************************************************************************************
 
 string and implementation classical problem : https://codeforces.com/problemset/problem/1886/C
+// **************************************************************************************** CONCEPT 12 ****************************************************************************************
+
+best constructive : https://codeforces.com/contest/2064/problem/C
